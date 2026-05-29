@@ -37,6 +37,11 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 
 
-
+## zod
 Using Zod for TypeScript first Schema validations --> npm i zod
 
+## DataBase connection in nextjs
+next js is edge time framework --> backend doesnt work all time when when users request comes it executes,things dont run all time
+databse is not connected all time when request goes db connects
+- make a folder lib because shadcn will also create it
+- always check first database is connected or not if not conncted then only form a connection
