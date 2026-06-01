@@ -45,3 +45,6 @@ next js is edge time framework --> backend doesnt work all time when when users 
 databse is not connected all time when request goes db connects
 - make a folder lib because shadcn will also create it
 - always check first database is connected or not if not conncted then only form a connection
+
+
+## setup resend email with nextjs
