@@ -18,7 +18,7 @@ export async function POST(request: Request){
        ).toString();
        //can remove when user fix it
 
-
+       
 
        const existingUserverifiedByUsername =  await UserModel.findOne({
           username,

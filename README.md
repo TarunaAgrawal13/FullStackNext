@@ -48,3 +48,20 @@ databse is not connected all time when request goes db connects
 
 
 ## setup resend email with nextjs
+
+## setting up next auth/auth.js
+  npm i next-auth
+  create folder structure as app/api/auth/[...nextauth] and two files inside it options.ts and route.ts
+
+  provider can be normal provider 
+      or 
+  credential provider which is a bit complex but when want through credentials needed
+
+  *firstly in docs follow credentials write in options.ts
+  *then jump to pages you can override or make ur custom routes with the help of pages, example sigin will be fully handled by next auth you dont have to do anything
+  *jump onto callbacks and you can customize it
+  *if types giving error make a new file in types as next-auth.d.ts
+
+  jump to route.ts file now 
+  
+  set up middleware in src/middleware.ts
