@@ -65,3 +65,6 @@ databse is not connected all time when request goes db connects
   jump to route.ts file now 
   
   set up middleware in src/middleware.ts
+
+  ## check username unique route
+  
